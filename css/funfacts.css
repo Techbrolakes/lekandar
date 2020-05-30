@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.funfact{
+    margin-top: 4.7rem;
+    text-align: center;
+    background-color: #fff;
+}
+.funfact img{
+    height: 30%;
+    width: 40%;
+}
+section{
+    background-color: #000000;
+    color: #fff;
+    padding-bottom: 14px;
+}
+
+.lists ol{
+    padding: 1rem 2rem;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+}
+.lists li{
+    letter-spacing: 1.6;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    max-width: 100%;
+    width: 100%;
+    padding: 1rem;
+}

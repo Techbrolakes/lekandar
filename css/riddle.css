@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+.riddle{
+    margin-top: 4.7rem;
+    text-align: center;
+    padding: .4rem;
+    background-color: #000000;
+}
+.riddle img{
+    height: 40%;
+    width: 20%;
+}
+.riddles{
+    padding: 0% !important;
+    margin: 0% !important;
+}
+/* RIDDLE LIST */
+
+.rid{
+    margin-top: 1rem;
+    display: none;
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+    color: #000000;
+    border: 2px solid #000000;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+
+}
+.btn{
+    margin-top: 1.3rem;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+}
+/* ORDER */
+.order{
+    margin: 1rem;
+    border: 1px solid #000000;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+}
+/* PAGINATION */
+.page-link{
+    color: #000000 !important;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    transition: 0.8s ease-in all;
+}
+.act{
+    background: #3f3f44 !important;
+}
+.page-link:hover{
+    color: #fff !important;
+    background: #222831 !important;
+}
+@media (max-width: 600px){
+    .riddle img{
+        height: 30%;
+        width: 20%;
+    }
+}
