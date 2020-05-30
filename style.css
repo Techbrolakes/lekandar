@@ -334,8 +334,39 @@ footer .animated {
       padding: 1rem;
       max-width: 100%;
       width: 100%;
-      font-size: 2.1rem;
+      font-size: 1.2rem;
     }
+    .content-box h1{
+      font-family: 'Poppins', Arial, Helvetica, sans-serif;
+      font-size: .8rem;
+      font-weight: 600;
+      text-align: center;
+      width: 100%;
+      max-width: 100%;
+  }
+  .form-group input{
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    font-size: .6rem;
+  }
+  .contact-form .follow{
+    background: #000000;
+    padding: .4rem .6rem;
+    margin: .7rem;
+    color: #fff;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+  }
+  .contact-form .fa{
+    font-size: .7rem;
+    color: #fff;
+    padding-right: 1rem;
+    transition: 0.7s ease-in;
+  }
+  .contact-form .fa:hover {
+    color: #f79071;
+    padding: 5px;
+  
+  }
+  
     footer h1{
       font-size: 1.5rem;
       font-weight: bolder;
@@ -368,8 +399,8 @@ footer .animated {
           color: #fff;
           max-width: 100%;
           text-align: center;
-          font-size: 1rem;
-          padding: 1.6rem .8rem;
+          font-size: .6rem;
+          padding: 1.2rem .6rem;
           background-color: black;
       }
     .example_a {
