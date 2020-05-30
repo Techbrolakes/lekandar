@@ -344,10 +344,9 @@ footer .animated {
       width: 100%;
       max-width: 100%;
   }
-  .contact-form span{
-    font-size: 1rem;
-    text-align: center;
-}
+  .follow span{
+    font-size: .9rem;
+  }
   .form-group input{
     font-family: 'Poppins',Arial, Helvetica, sans-serif;
     font-size: .6rem;
