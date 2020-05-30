@@ -322,6 +322,11 @@ footer .animated {
         height: 90vh;
         width: 100vh;
     }
+    .navbar-brand{
+      color: #fff !important;
+      font-size: 1rem !important;
+      font-family: 'Charm','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
     .language h1{
       font-family: 'Poppins',Arial, Helvetica, sans-serif;
       line-height: 1.6;
@@ -385,7 +390,7 @@ footer .animated {
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px){
     .captionz h1{
-        font-size: 2rem;
+        font-size: 1rem;
         
     }
 }
