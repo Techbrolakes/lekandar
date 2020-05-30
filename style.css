@@ -347,9 +347,24 @@ footer .animated {
       width: 100%;
       max-width: 100%;
   }
+  .RID h1{
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2;
+    font-size: .9rem;
+    padding: .8rem;
+    }
   .contact-form span{
     text-align: center;
     font-size: 1rem;
+}
+.RID img{
+  margin-top: .8rem;
+  width: 60%;
+  height: 70%;
+}
+.funfacts h2{
+  font-family: 'Poppins',Arial, Helvetica, sans-serif;
+  font-size: 1rem;
 }
   .form-group input{
     font-family: 'Poppins',Arial, Helvetica, sans-serif;
@@ -381,15 +396,23 @@ footer .animated {
     width: 100%;
     max-width: 100%;
   }
+  .Profile-Pic h3{
+    font-size: .7rem;
+    margin-top: 12px;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: .8rem;
+    line-height: 1.2;
+  }
   
     footer h1{
-      font-size: 1.5rem;
+      font-size: 1rem;
       font-weight: bolder;
       max-width: 100%;
       width: 100%;
     }
     footer h4{
-      font-size: 1.2rem;
+      font-size: .8rem;
       max-width: 100%;
       width: 100%;
     }
