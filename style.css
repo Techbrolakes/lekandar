@@ -318,6 +318,9 @@ footer .animated {
 /* Media Query */
 
 @media (max-width: 600px){
+  body{
+    overflow-x: hidden;
+  }
     .intro img{
         height: 90vh;
         width: 100vh;
@@ -344,9 +347,10 @@ footer .animated {
       width: 100%;
       max-width: 100%;
   }
-  .follow span{
-    font-size: .9rem;
-  }
+  .contact-form span{
+    text-align: center;
+    font-size: 1rem;
+}
   .form-group input{
     font-family: 'Poppins',Arial, Helvetica, sans-serif;
     font-size: .6rem;
@@ -368,6 +372,14 @@ footer .animated {
     color: #f79071;
     padding: 5px;
   
+  }
+  #fav h1{
+    font-family: 'charm', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
   }
   
     footer h1{
