@@ -34,3 +34,14 @@ section{
     width: 100%;
     padding: 1rem;
 }
+@media (max-width: 600px){
+    .lists li{
+        letter-spacing: 1.2;
+        font-family: 'Poppins',Arial, Helvetica, sans-serif;
+        font-size: .8rem;
+        max-width: 100%;
+        font-weight: bolder;
+        width: 100%;
+        padding: .8rem;
+    }
+}
